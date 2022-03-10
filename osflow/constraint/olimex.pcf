@@ -1,0 +1,89 @@
+# Clock
+set_io SYSCLK J3
+# LEDs
+set_io LED[0] M12
+set_io LED[1] R16
+# Buttons
+set_io BTN[0] K11
+set_io BTN[1] P13
+# GPIO
+set_io -nowarn PIO3_00 E4
+set_io -nowarn PIO3_01 B2
+set_io -nowarn PIO3_02 F5
+set_io -nowarn PIO3_03 B1
+set_io -nowarn PIO3_04 C1
+set_io -nowarn PIO3_05 C2
+set_io -nowarn PIO3_06 F4
+set_io -nowarn PIO3_07 D2
+set_io -nowarn PIO3_08 G5
+set_io -nowarn PIO3_09 D1
+set_io -nowarn PIO3_10 G4
+set_io -nowarn PIO3_11 E3
+set_io -nowarn PIO3_12 H5
+set_io -nowarn PIO3_13 E2
+set_io -nowarn PIO3_14 G3
+set_io -nowarn PIO3_15 F3
+set_io -nowarn PIO3_16 H3
+set_io -nowarn PIO3_17 F2
+set_io -nowarn PIO3_18 H6
+set_io -nowarn PIO3_19 F1
+set_io -nowarn PIO3_20 H4
+set_io -nowarn PIO3_21 G2
+set_io -nowarn PIO3_22 J4
+set_io -nowarn PIO3_23 H2
+set_io -nowarn PIO3_24 J5
+set_io -nowarn PIO3_25 G1
+set_io -nowarn PIO3_27 H1
+set_io -nowarn PIO3_28 J2
+# Programming connector
+set_io -nowarn CDONE M10
+set_io -nowarn CRESET N11
+set_io -nowarn SDO P12
+set_io -nowarn SDI P11
+set_io -nowarn SCK R11
+set_io -nowarn SS_B R12
+set_io -nowarn RxD L11
+set_io -nowarn TxD T16
+# SRAM
+set_io -nowarn SRAM_CS T6
+set_io -nowarn SRAM_OE L9
+set_io -nowarn SRAM_WE T7
+set_io -nowarn SA[0] N6
+set_io -nowarn SA[1] T1
+set_io -nowarn SA[2] P4
+set_io -nowarn SA[3] R2
+set_io -nowarn SA[4] N5
+set_io -nowarn SA[5] T2
+set_io -nowarn SA[6] P5
+set_io -nowarn SA[7] R3
+set_io -nowarn SA[8] R5
+set_io -nowarn SA[9] T3
+set_io -nowarn SA[10] R4
+set_io -nowarn SA[11] M7
+set_io -nowarn SA[12] N7
+set_io -nowarn SA[13] P6
+set_io -nowarn SA[14] M8
+set_io -nowarn SA[15] T5
+set_io -nowarn SA[16] R6
+set_io -nowarn SA[17] P8
+set_io -nowarn SD[0] T8
+set_io -nowarn SD[1] P7
+set_io -nowarn SD[2] N9
+set_io -nowarn SD[3] T9
+set_io -nowarn SD[4] M9
+set_io -nowarn SD[5] R9
+set_io -nowarn SD[6] K9
+set_io -nowarn SD[7] P9
+set_io -nowarn SD[8] R10
+set_io -nowarn SD[9] L10
+set_io -nowarn SD[10] P10
+set_io -nowarn SD[11] N10
+set_io -nowarn SD[12] T10
+set_io -nowarn SD[13] T11
+set_io -nowarn SD[14] T15
+set_io -nowarn SD[15] T14
+# JTAG
+set_io -nowarn TDI R14
+set_io -nowarn TMS R15
+set_io -nowarn TCK P14
+set_io -nowarn TDO P15
