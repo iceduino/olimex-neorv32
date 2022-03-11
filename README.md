@@ -37,6 +37,7 @@ no flow control or parity
 
 Compilation for uploading via UART  
 * Open terminal navigate to sw/programs/<application folder> and use make clean_all exe to create neorv32_exe.bin  
+
 Compilation for installing into memory without bootloader  
 * Open terminal navigate to sw/programs/<application folder> and use make clean_all install to create neorv32_application_image.vhd  
 
