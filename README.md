@@ -8,37 +8,37 @@
 
 ## Flashing Olimexboard with UM232H
 
-Connection:
-Olimexpin -> FTDI-Pin
-SCK -> AD0
-SS -> AD4
-SDO -> AD1
-SDI -> AD2
-CREST -> AD7 
-GND -> GND
+Connection:  
+Olimexpin -> FTDI-Pin  
+SCK -> AD0  
+SS -> AD4  
+SDO -> AD1  
+SDI -> AD2  
+CREST -> AD7   
+GND -> GND  
 
-* Open terminal navigate to osflow/boards/olimex and use make clean all to create olimex_impl.bin
+* Open terminal navigate to osflow/boards/olimex and use make clean all to create olimex_impl.bin  
 * Use make program to flash olimex_impl.bin
 
 ## Using Bootloader with UART
 
-Connection:
-Olimexpin -> FTDI-Pin
-TxD -> AD1
-RxD -> AD0
-GND -> GND
+Connection:  
+Olimexpin -> FTDI-Pin  
+TxD -> AD1  
+RxD -> AD0  
+GND -> GND  
 
-baudrate 19200
-8 databits
-1 stopbit
-no flow control or parity
+baudrate 19200  
+8 databits  
+1 stopbit  
+no flow control or parity  
 
 ## Compile Application
 
-Compilation for uploading via UART
-* Open terminal navigate to sw/programs/<application folder> and use make clean_all exe to create neorv32_exe.bin
-Compilation for installing into memory without bootloader
-* Open terminal navigate to sw/programs/<application folder> and use make clean_all install to create neorv32_application_image.vhd
+Compilation for uploading via UART  
+* Open terminal navigate to sw/programs/<application folder> and use make clean_all exe to create neorv32_exe.bin  
+Compilation for installing into memory without bootloader  
+* Open terminal navigate to sw/programs/<application folder> and use make clean_all install to create neorv32_application_image.vhd  
 
 
 
